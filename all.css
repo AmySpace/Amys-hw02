@@ -267,6 +267,11 @@ table {
   width: 144px;
 }
 
+@media screen and (max-width:376px) {
+  .greenbut,.greenbut_outline{
+    width: 100%;
+  }
+}
 .allzones {
   padding-top: 100px;
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball01.svg), url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball02.svg);
@@ -593,9 +598,7 @@ table {
 }
 
 @media screen and (max-width: 376px) {
-  ..greenbut{
-    width: 100%;
-  }
+
   .zone_title {
     font-size: 28px;
     line-height: 40px;
