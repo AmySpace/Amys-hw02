@@ -594,7 +594,7 @@ table {
 
 @media screen and (max-width: 376px) {
   ..greenbut{
-    width: 100%;
+    
   }
   .zone_title {
     font-size: 28px;
